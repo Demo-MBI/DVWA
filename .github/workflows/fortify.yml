@@ -62,7 +62,7 @@ jobs:
           FOD_TENANT: Maybank_POV
           FOD_USER: ${{secrets.FODUSER}}
           FOD_PASSWORD: ${{secrets.FODPASS}}
-          FOD_RELEASE: Demo-MBI/DVWA:latest
+          FOD_RELEASE: 8346
           ### Optional configuration when integrating with Fortify on Demand
           # EXTRA_PACKAGE_OPTS: -oss                       # Extra 'scancentral package' options, like '-oss'' if
                                                            # Debricked SCA scan is enabled on Fortify on Demand
